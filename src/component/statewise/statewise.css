@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Balthazar&family=Libre+Baskerville:wght@700&family=Montserrat+Alternates:ital,wght@1,200&family=Montserrat:ital,wght@1,100&family=Mulish:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Balthazar&family=Libre+Baskerville:wght@700&family=Montserrat+Alternates:ital,wght@1,200&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Baloo+Bhai+2:wght@700&family=Balthazar&family=Itim&family=Libre+Baskerville:wght@700&family=Montserrat+Alternates:ital,wght@1,200&family=Mulish&family=Yanone+Kaffeesatz:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Baloo+Bhai+2:wght@700&family=Balthazar&family=Economica&family=Itim&family=Libre+Baskerville:wght@700&family=Montserrat+Alternates:ital,wght@1,200&family=Mulish&family=Yanone+Kaffeesatz:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Baloo+Bhai+2:wght@700&family=Balthazar&family=Economica&family=Itim&family=Jura:wght@548;700&family=Libre+Baskerville:wght@700&family=Montserrat+Alternates:ital,wght@1,200&family=Mulish&family=Yanone+Kaffeesatz:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+    background-color: ghostwhite;
+    color: #000;
+}
+
+.container-fluid{
+    width: 90%;
+    margin: auto;
+}
+
+.main_heading{
+    margin-top: 75px;
+}
+
+.text-center{
+    margin-bottom: 45px;
+}
+
+h1.mb-5.text-center {
+    margin-left: 10px;
+    text-align: center;
+}
+
+h1.mb-5.text-center {
+    color: #e23028;
+}
+
+h1.mb-5.text-center .desc {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table-responsive{
+    max-height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+
+tbody tr:hover{
+    background-color: #f2f2f2;
+}
+
+td,
+th{
+    position: relative;
+    padding: 8px;
+}
+
+.table td,
+.table th{
+    vertical-align: top;
+    border-top: none;
+}
+
+.table th{
+    padding: 8px 150px 8px 0px;
+}
+
+.thead-dark{
+    background-color: black;
+    color: #f2f2f2;
+}
+
+
+td:hover::after,
+th:hover::after{
+    content: "";
+    position: absolute;
+    background-color: #f2f2f2;
+    left: 0;
+    top: -5000px;
+    height: 5000px;
+    width: 100%;
+    z-index: -1;
+}
+
+.table .thead-dark tr th:hover {
+    font-size:22px;
+    color: aliceblue;
+    transition: all 500ms;
+    font-size-adjust: 10px;
+    background-color: darkcyan;
+}
+.table .thead-dark tr th:hover:nth-child(5) {
+    background-color: rgb(231, 83, 115);
+}
+.table tr td:hover:nth-child(1) {
+    background-color:#708090;
+    color: aliceblue;
+    border: 0.5px solid rgba(12, 12, 12);
+}
+.table tr td:hover:nth-child(2) {
+    background-color: rgb(231, 83, 115);
+    color: aliceblue;
+    border: 0.5px solid rgba(12, 12, 12);
+}
+.table tr td:hover:nth-child(3) {
+    background-color: #00BFFF;
+    color: aliceblue;
+    border: 0.5px solid rgba(12, 12, 12);
+}
+.table tr td:hover:nth-child(4) {
+    background-color: rgb(117, 223, 122);
+    color: aliceblue;
+    border: 0.5px solid rgba(12, 12, 12);
+}
+.table tr td:hover:nth-child(5) {
+    background-color: rgb(231, 83, 115);
+    color: aliceblue;
+    border: 0.5px solid rgba(12, 12, 12);
+}
+.table tr td:hover:nth-child(6) {
+    background-color: #A9A9A9;
+    color: aliceblue;
+    border: 0.5px solid rgba(12, 12, 12);
+}
+.thead-dark{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.covid_center{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
